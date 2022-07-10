@@ -1,0 +1,10 @@
+.cardTable {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 5%;
+}
+
+.cardTurns {
+  margin-top: 5%;
+}
