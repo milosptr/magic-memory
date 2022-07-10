@@ -38,7 +38,6 @@ export default function Table() {
 
  const handleTurnCard = (card) => {
   choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
-  console.log(choiceOne, choiceTwo);
  }
 
  useEffect(() => {
@@ -55,7 +54,6 @@ export default function Table() {
       resetTurn()
     } else {
       setTimeout(() => {
-
         resetTurn()
       }, 1000);
     }
